@@ -17,7 +17,6 @@ This project focuses on the structural and thermal investigation of a gas turbin
 The objective was to evaluate blade performance under aerodynamic, thermal, and mechanical loading conditions commonly experienced in aerospace propulsion systems.
 
 The investigation focuses on:
-
 - structural deformation
 - equivalent stress distribution
 - thermal behaviour
@@ -30,14 +29,12 @@ The investigation focuses on:
 ## Technical Details
 
 ### Software Used
-
 - ANSYS Workbench
 - ANSYS Mechanical
 - SolidWorks
 - MATLAB
 
 ### Engineering Methodology
-
 - Finite Element Analysis (FEA)
 - Static structural simulation
 - Thermal analysis
@@ -46,7 +43,6 @@ The investigation focuses on:
 - Mesh quality validation
 
 ### Key Engineering Areas
-
 - Gas Turbine Engineering
 - Aerospace Propulsion
 - Structural Mechanics
@@ -62,7 +58,9 @@ The investigation focuses on:
 
 ## 1. Blade Geometry
 
-![Blade Geometry](Images/1.png)
+<p align="center">
+  <img src="Images/1.png" width="420"/>
+</p>
 
 <p align="center">
 <em>Gas turbine blade geometry showing aerofoil profile, platform section, leading edge, and trailing edge configuration.</em>
@@ -70,59 +68,11 @@ The investigation focuses on:
 
 ---
 
-## 2. Equivalent Stress Analysis
-
-![Equivalent Stress](Images/2.png)
+## 2. Mesh Generation
 
 <p align="center">
-<em>Von-Mises equivalent stress distribution used for structural integrity assessment.</em>
+  <img src="Images/2.png" width="420"/>
 </p>
-
----
-
-## 3. Comparative Engineering Results
-
-![Engineering Results](Images/3.png)
-
-<p align="center">
-<em>Comparison of deformation and stress values under different loading conditions.</em>
-</p>
-
----
-
-## 4. Modal Analysis
-
-![Modal Analysis](Images/4.png)
-
-<p align="center">
-<em>Modal frequency analysis performed to investigate vibration behaviour and resonance characteristics.</em>
-</p>
-
----
-
-## 5. Maximum Principal Stress
-
-![Principal Stress](Images/5.png)
-
-<p align="center">
-<em>Maximum principal stress distribution showing critical stress concentration regions.</em>
-</p>
-
----
-
-## 6. Temperature Field Investigation
-
-![Temperature Field](Images/6.png)
-
-<p align="center">
-<em>Temperature field simulation demonstrating thermal loading behaviour during turbine operation.</em>
-</p>
-
----
-
-## 7. Mesh Generation
-
-![Mesh Generation](Images/7.png)
 
 <p align="center">
 <em>Finite element mesh generated for structural and thermal simulations using ANSYS Workbench.</em>
@@ -130,9 +80,23 @@ The investigation focuses on:
 
 ---
 
-## 8. Structural Deformation Analysis
+## 3. Comparative Engineering Results
 
-![Structural Deformation](Images/8.png)
+<p align="center">
+  <img src="Images/3.png" width="700"/>
+</p>
+
+<p align="center">
+<em>Comparison of deformation and stress values under different loading conditions.</em>
+</p>
+
+---
+
+## 4. Structural Deformation Analysis
+
+<p align="center">
+  <img src="Images/4.png" width="420"/>
+</p>
 
 <p align="center">
 <em>Total deformation contour showing blade displacement under operational loading conditions.</em>
@@ -140,9 +104,59 @@ The investigation focuses on:
 
 ---
 
+## 5. Equivalent Stress Analysis
+
+<p align="center">
+  <img src="Images/5.png" width="420"/>
+</p>
+
+<p align="center">
+<em>Von-Mises equivalent stress distribution used for structural integrity assessment.</em>
+</p>
+
+---
+
+## 6. Temperature Field Investigation
+
+<p align="center">
+  <img src="Images/6.png" width="520"/>
+</p>
+
+<p align="center">
+<em>Temperature field simulation demonstrating thermal loading behaviour during turbine operation.</em>
+</p>
+
+---
+
+## 7. Maximum Principal Stress
+
+<p align="center">
+  <img src="Images/7.png" width="420"/>
+</p>
+
+<p align="center">
+<em>Maximum principal stress contour identifying critical stress concentration regions.</em>
+</p>
+
+---
+
+## 8. Modal Analysis
+
+<p align="center">
+  <img src="Images/8.png" width="700"/>
+</p>
+
+<p align="center">
+<em>Modal frequency analysis performed to investigate vibration behaviour and resonance characteristics.</em>
+</p>
+
+---
+
 ## 9. Thermal Distribution Analysis
 
-![Thermal Distribution](Images/9.png)
+<p align="center">
+  <img src="Images/9.png" width="520"/>
+</p>
 
 <p align="center">
 <em>Thermal contour illustrating temperature distribution across turbine blade surfaces.</em>
