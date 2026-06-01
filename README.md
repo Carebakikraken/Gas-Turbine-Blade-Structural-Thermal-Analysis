@@ -5,7 +5,7 @@ Finite Element Analysis (FEA) investigation of gas turbine blade structural and 
 </p>
 
 <p align="center">
-Structural Analysis • Thermal Simulation • Fatigue Study • Modal Analysis • Aerospace Engineering
+Structural Analysis • Thermal Simulation • Modal Analysis • Aerospace Engineering
 </p>
 
 ---
@@ -58,11 +58,11 @@ The investigation focuses on:
 
 # Simulation Workflow & Results
 
+---
+
 ## 1. Blade Geometry
 
-<p align="center">
-<img src="Images/1.png" width="550"/>
-</p>
+![Blade Geometry](Images/1.png)
 
 <p align="center">
 <em>Gas turbine blade geometry showing aerofoil profile, platform section, leading edge, and trailing edge configuration.</em>
@@ -70,47 +70,9 @@ The investigation focuses on:
 
 ---
 
-## 2. Mesh Generation
+## 2. Equivalent Stress Analysis
 
-<p align="center">
-<img src="Images/2.png" width="550"/>
-</p>
-
-<p align="center">
-<em>Finite element mesh generated for structural and thermal simulations using ANSYS Workbench.</em>
-</p>
-
----
-
-## 3. Structural Deformation Analysis
-
-<p align="center">
-<img src="Images/3.png" width="550"/>
-</p>
-
-<p align="center">
-<em>Total deformation contour showing blade displacement under operational loading conditions.</em>
-</p>
-
----
-
-## 4. Thermal Distribution Analysis
-
-<p align="center">
-<img src="Images/4.png" width="650"/>
-</p>
-
-<p align="center">
-<em>Thermal contour illustrating temperature distribution across turbine blade surfaces.</em>
-</p>
-
----
-
-## 5. Equivalent Stress Analysis
-
-<p align="center">
-<img src="Images/5.png" width="550"/>
-</p>
+![Equivalent Stress](Images/2.png)
 
 <p align="center">
 <em>Von-Mises equivalent stress distribution used for structural integrity assessment.</em>
@@ -118,11 +80,9 @@ The investigation focuses on:
 
 ---
 
-## 6. Comparative Engineering Results
+## 3. Comparative Engineering Results
 
-<p align="center">
-<img src="Images/6.png" width="750"/>
-</p>
+![Engineering Results](Images/3.png)
 
 <p align="center">
 <em>Comparison of deformation and stress values under different loading conditions.</em>
@@ -130,11 +90,9 @@ The investigation focuses on:
 
 ---
 
-## 7. Modal Analysis
+## 4. Modal Analysis
 
-<p align="center">
-<img src="Images/7.png" width="750"/>
-</p>
+![Modal Analysis](Images/4.png)
 
 <p align="center">
 <em>Modal frequency analysis performed to investigate vibration behaviour and resonance characteristics.</em>
@@ -142,11 +100,9 @@ The investigation focuses on:
 
 ---
 
-## 8. Maximum Principal Stress
+## 5. Maximum Principal Stress
 
-<p align="center">
-<img src="Images/8.png" width="550"/>
-</p>
+![Principal Stress](Images/5.png)
 
 <p align="center">
 <em>Maximum principal stress distribution showing critical stress concentration regions.</em>
@@ -154,17 +110,46 @@ The investigation focuses on:
 
 ---
 
-## 9. Temperature Field Investigation
+## 6. Temperature Field Investigation
 
-<p align="center">
-<img src="Images/9.png" width="650"/>
-</p>
+![Temperature Field](Images/6.png)
 
 <p align="center">
 <em>Temperature field simulation demonstrating thermal loading behaviour during turbine operation.</em>
 </p>
 
 ---
+
+## 7. Mesh Generation
+
+![Mesh Generation](Images/7.png)
+
+<p align="center">
+<em>Finite element mesh generated for structural and thermal simulations using ANSYS Workbench.</em>
+</p>
+
+---
+
+## 8. Structural Deformation Analysis
+
+![Structural Deformation](Images/8.png)
+
+<p align="center">
+<em>Total deformation contour showing blade displacement under operational loading conditions.</em>
+</p>
+
+---
+
+## 9. Thermal Distribution Analysis
+
+![Thermal Distribution](Images/9.png)
+
+<p align="center">
+<em>Thermal contour illustrating temperature distribution across turbine blade surfaces.</em>
+</p>
+
+---
+
 # Results & Findings
 
 The investigation demonstrated the effectiveness of FEA methodologies for evaluating turbine blade structural reliability and thermal performance.
